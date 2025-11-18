@@ -1,0 +1,48 @@
+name: QDHWorldGuardTitle
+version: '1.0.0'
+main: dev.qdhshamiro.qdhworldguardtitle.QDHWorldguardTitle
+api-version: '1.21'
+description: A Minecraft plugin that displays titles, subtitles, action bars, and messages based on WorldGuard regions.
+
+author: Shamiro
+
+depend:
+  - WorldGuard
+  - WorldEdit
+
+commands:
+  qdhworldguardtitle:
+    description: reload / status / toggle
+    aliases: [qdh]
+    usage: /<command> <reload|status|toggle> [feature] [on|off]
+    permission: qdhworldguardtitle.command
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  qdhworldguardtitle.command:
+    description: Use the main qdhworldguardtitle command
+    default: op
+  qdhworldguardtitle.reload:
+    description: Reload the plugin config/regions
+    default: op
+  qdhworldguardtitle.status:
+    description: View plugin status
+    default: op
+  qdhworldguardtitle.toggle:
+    description: Toggle features at runtime (title/subtitle/actionbar/messages/overall)
+    default: op
+  qdhworldguardtitle.toggle.title:
+    description: Toggle titles
+    default: op
+  qdhworldguardtitle.toggle.subtitle:
+    description: Toggle subtitles
+    default: op
+  qdhworldguardtitle.toggle.actionbar:
+    description: Toggle actionbar
+    default: op
+  qdhworldguardtitle.toggle.messages:
+    description: Toggle messages
+    default: op
+  qdhworldguardtitle.toggle.overall:
+    description: Toggle plugin overall on/off
+    default: op

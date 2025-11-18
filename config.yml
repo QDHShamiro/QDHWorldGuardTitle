@@ -1,0 +1,43 @@
+settings:
+  enabled: true
+  async-processing: true
+  debug: false
+
+defaults:
+  enabled: true
+  enable-title: true
+  enable-subtitle: true
+  enable-actionbar: true
+  enable-messages: true
+  enable-sound: true
+
+  # per-component default enable flags for enter/leave
+  enable-title-enter: true
+  enable-subtitle-enter: true
+  enable-actionbar-enter: true
+  enable-messages-enter: true
+  enable-sound-enter: true
+  enable-title-leave: true
+  enable-subtitle-leave: true
+  enable-actionbar-leave: true
+  enable-messages-leave: true
+  enable-sound-leave: true
+
+  # default messages and components
+  title-enter: "&bEntering %region%"
+  subtitle-enter: "&7Welcome!"
+  actionbar-enter: "&fYou entered &b%region%"
+  messages-enter:
+    - "&a[INFO] &7You entered &b%region%"
+  sound-enter: "ENTITY_PLAYER_LEVELUP"
+  sound-enter-volume: 1.0
+  sound-enter-pitch: 1.0
+
+  title-leave: "&cLeaving %region%"
+  subtitle-leave: "&7Goodbye!"
+  actionbar-leave: "&fYou left &c%region%"
+  messages-leave:
+    - "&c[INFO] &7You left &c%region%"
+  sound-leave: "ENTITY_PLAYER_LEVELDOWN"
+  sound-leave-volume: 1.0
+  sound-leave-pitch: 1.0

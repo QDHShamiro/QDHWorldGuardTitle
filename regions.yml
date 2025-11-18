@@ -1,0 +1,67 @@
+sword:
+  enabled: true
+  enable-title: true
+  enable-subtitle: true
+  enable-actionbar: false
+  enable-messages: false
+  enable-sound: true
+  enable-title-enter: true
+  enable-subtitle-enter: true
+  enable-actionbar-enter: false
+  enable-messages-enter: false
+  enable-sound-enter: true
+  enable-title-leave: true
+  enable-subtitle-leave: true
+  enable-actionbar-leave: false
+  enable-messages-leave: false
+  enable-sound-leave: true
+  title-enter: "<#FF0000>🗡 Sword Area"
+  subtitle-enter: "&7Prepare to fight!"
+  actionbar-enter: "<#FF0000>&l Sword Area"
+  messages-enter:
+    - "&cYou entered the Sword Area."
+  sound-enter: "ENTITY_PLAYER_ATTACK_SWEEP"
+  sound-enter-volume: 1.0
+  sound-enter-pitch: 1.2
+  title-leave: "<#FF0000>🗡 Out of Sword Area"
+  subtitle-leave: "&7You're now safe!"
+  actionbar-leave: "<#FF0000>&lYou left the Sword Area"
+  messages-leave:
+    - "&cYou have left the Sword Area."
+  sound-leave: "ENTITY_PLAYER_LEVELUP"
+  sound-leave-volume: 1.0
+  sound-leave-pitch: 1.0
+
+spawn:
+  enabled: false
+  enable-title: true
+  enable-subtitle: true
+  enable-actionbar: true
+  enable-messages: true
+  enable-sound: true
+  enable-title-enter: true
+  enable-subtitle-enter: true
+  enable-actionbar-enter: true
+  enable-messages-enter: true
+  enable-sound-enter: true
+  enable-title-leave: true
+  enable-subtitle-leave: true
+  enable-actionbar-leave: true
+  enable-messages-leave: true
+  enable-sound-leave: true
+  title-enter: "<#00aaff>Entering Spawn"
+  subtitle-enter: "&7Enjoy your stay!"
+  actionbar-enter: "<#00aaff>Welcome to Spawn"
+  messages-enter:
+    - "&bYou have entered Spawn."
+  sound-enter: "ENTITY_PLAYER_LEVELUP"
+  sound-enter-volume: 1.0
+  sound-enter-pitch: 1.0
+  title-leave: "<#ff3333>Leaving Spawn"
+  subtitle-leave: "&7See you soon!"
+  actionbar-leave: "<#ff3333>You left Spawn"
+  messages-leave:
+    - "&cYou have left Spawn."
+  sound-leave: "ENTITY_PLAYER_LEVELDOWN"
+  sound-leave-volume: 1.0
+  sound-leave-pitch: 1.0
